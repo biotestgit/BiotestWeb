@@ -22,7 +22,8 @@
 	line-height:32px;
 	padding:0 15px;
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 }
 
 #primary_nav_wrap ul li
