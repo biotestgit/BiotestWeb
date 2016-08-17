@@ -19,10 +19,14 @@ ul.linklist {
 	list-style: none;
 }
 h1, h2, h3, h4, h5, h6 {
-	margin-top: 0;	
+	margin-top: 0px;	
 	padding-right: 15px;
 	padding-left: 15px;
 	color: #3387d6;
+}
+
+h4{
+	margin-top: 20px;
 }
 p, strong, .socialIcons {
 	margin-top: 10px;	
@@ -121,7 +125,7 @@ footer{
 	padding: 0px;
 }
 
-#navlist ul a{
+#navlist ul a, #navlist ul li{
 	display: block;
 	color: white;
 	text-decoration: none;
@@ -139,6 +143,11 @@ footer{
 	margin: 0px;
 	padding: 0px;	
 	background: #346091;
+}
+
+#navlist ul li.dropdownheader{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #navlist ul li:hover {
